@@ -37,7 +37,7 @@ app.post("/", function (req, res){
   const url = "https://us1.api.mailchimp.com/3.0/lists/5d94f71afa"
   const options = { //javascript object
     method: "POST", // posting data to their servers
-    auth: "Zephireis:a0c1b9f925e9119cd7353450ddb8524aa-us1"
+    auth: "Zephireis:0c1b9f925e9119cd7353450ddb8524aa-us1"
   }
   const request = https.request(url, options, function(response){ // options takes a object-type
     if(response.statusCode === 200) {
